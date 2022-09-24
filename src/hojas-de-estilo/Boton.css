@@ -1,0 +1,22 @@
+button{
+  width: 50px;
+  height: 30px;
+  font-weight: 700;
+  color: black;
+  border: 2px solid gold;
+  border-radius: 15px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: goldenrod;
+}
+
+.boton-clic{
+  background-color: floralwhite;
+}
+
+.boton-reiniciar{
+  background-color: floralwhite;
+}

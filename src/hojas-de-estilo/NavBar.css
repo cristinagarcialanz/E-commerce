@@ -1,0 +1,50 @@
+.contenedor-principal{
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;  
+}
+
+.logotipo {
+    height: 15vmin;
+    pointer-events: none;
+    border-radius: 50%;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .logotipo {
+      animation: logo-spin infinite 30s linear;
+    }
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .item-lista{
+    color: black;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    cursor: pointer;
+  }
+  
+  .item-lista:hover{
+    color: darkorange;
+    font-size: 35px;
+    transform: 160s;
+  }

@@ -1,0 +1,14 @@
+.contenedor-principal-carrito{  
+  text-align: center;
+}
+
+.icon-cart{    
+  font-size: 40px;    
+  color: black;
+}
+
+.icon-cart:hover{
+  color: goldenrod;
+  font-size: 45px;
+  transform: 5s;
+}
